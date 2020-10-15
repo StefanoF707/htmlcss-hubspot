@@ -33,6 +33,21 @@ li {
     /* border: 1px solid #000; */
 }
 
+.hubspot-button {
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  background: #f0785c;
+  padding: 15px 20px;
+}
+.hubspot-button:hover {
+  animation: button-brighter 0.8s forwards;
+}
+/* /utility */
+
+/* keyframes */
 @keyframes button-brighter {
   0% {
     background: #f0785c;
@@ -41,8 +56,9 @@ li {
     background: #F6BBAC;
   }
 }
-/* /utility */
+/* /keyframes */
 
+/* HEADER */
 /* fixed-bar */
 header #fixed-bar {
   width: 100%;
@@ -128,3 +144,40 @@ header #logo-navbar {
 }
 /* /navbar */
 /* /logo & navbar */
+
+/* jumbotron */
+header #jumbotron {
+  height: 695px;
+  background: url("../img/jumbotron.png") no-repeat;
+  background-size: contain;
+}
+
+#jumbotron .introduction {
+  width: 40%;
+  height: 60%;
+  padding-top: 40px;
+}
+
+.introduction > h1 {
+  font-size: 45px;
+  font-family: arial;
+}
+
+.introduction > p.info-top {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.introduction > a.hubspot-button {
+  width: 50%;
+}
+
+.introduction > p.info-bottom {
+  width: 50%;
+  font-size: 14px;
+  margin-top: 25px;
+}
+/* /jumbotron */
+/* /HEADER */
+
+/* MAIN */
