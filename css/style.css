@@ -10,13 +10,6 @@ body {
 }
 
 /* utility */
-.container {
-  width: 80%;
-  height: 100%;
-  margin: auto;
-  /* border: 1px solid black; */
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -27,10 +20,33 @@ li {
   display: inline-block;
 }
 
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.img30 {
+  width: 30%;
+}
+.img100 {
+  width: 100%;
+}
+
 .float50 {
   width: 50%;
   float: left;
     /* border: 1px solid #000; */
+}
+.float-left {
+  float: left;
+    /* border: 1px solid #000; */
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .hubspot-button {
@@ -66,12 +82,13 @@ header #fixed-bar {
   line-height: 70px;
   position: fixed;
   top: 0;
+  z-index: 1;
   font-size: 17px;
   background-color: #FDF1EE;
-  border-bottom: 1px solid #2c3d51;
+  border-bottom: 1px solid #425B76;
 }
 
-/* left */
+/* fixed-left */
 .fixed-bar-left li:first-child > a {
   border-right: 2px solid #2c3d51;
   padding-right: 10px;
@@ -81,9 +98,9 @@ header #fixed-bar {
   color: #2E7A8C;
   text-decoration: underline;
 }
-/* /left */
+/* /fixed-left */
 
-/* right */
+/* fixed-right */
 .fixed-bar-right {
   text-align: right;
 }
@@ -114,7 +131,7 @@ a.hubspot-mini-button {
 a.hubspot-mini-button:hover {
   animation: button-brighter 0.5s forwards;
 }
-/* /right */
+/* /fixed-right */
 /* /fixed-bar */
 
 
@@ -147,14 +164,14 @@ header #logo-navbar {
 
 /* jumbotron */
 header #jumbotron {
-  height: 695px;
+  height: 99vh;
   background: url("../img/jumbotron.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: top right;
 }
 
 #jumbotron .introduction {
   width: 40%;
-  height: 60%;
   padding-top: 40px;
 }
 
@@ -178,6 +195,61 @@ header #jumbotron {
   margin-top: 25px;
 }
 /* /jumbotron */
+
+header::after {
+  display: block;
+  content: "";
+  height: 60px;
+  background: #9bede4;
+  border-top: 2px solid #425B76;
+  border-bottom: 2px solid #425B76;
+}
 /* /HEADER */
 
 /* MAIN */
+main > #packages {
+  background: #F5F8FA;
+  padding-bottom: 50px;
+}
+
+/* packages-top */
+#packages .packages-top {
+  padding: 50px 0 30px;
+  text-align: center;
+}
+
+.packages-top h2 {
+  font-size: 32px;
+}
+.packages-top p {
+  width: 70%;
+  margin: 15px auto;
+  font-size: 14px;
+}
+/* /packages-top */
+
+/* packages-middle */
+#packages .packages-middle {
+    height: 200px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 0 11px #cad9e8;
+  margin-bottom: 50px;
+}
+
+/* /packages-middle */
+
+/* packages-bottom */
+.left-col,
+.middle-col,
+.right-col {
+  width: 30%;
+    height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 11px #cad9e8;
+  background: #fff;
+}
+
+.middle-col {
+  margin: 0 5%;
+}
