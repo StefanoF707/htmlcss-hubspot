@@ -27,6 +27,12 @@ li {
   display: inline-block;
 }
 
+.float50 {
+  width: 50%;
+  float: left;
+    /* border: 1px solid #000; */
+}
+
 @keyframes button-brighter {
   0% {
     background: #f0785c;
@@ -50,12 +56,6 @@ header #fixed-bar {
 }
 
 /* left */
-.fixed-bar-left,
-.fixed-bar-right {
-  width: 50%;
-  float: left;
-}
-
 .fixed-bar-left li:first-child > a {
   border-right: 2px solid #2c3d51;
   padding-right: 10px;
@@ -104,12 +104,27 @@ a.hubspot-mini-button:hover {
 
 /* logo & navbar */
 header #logo-navbar {
-  margin-top: 70px; 
+  margin-top: 70px;
+  height: 70px;
+  line-height: 70px;
 }
-/* logo */
 
+/* logo */
+#logo-navbar .logo-container img {
+  vertical-align: middle;
+}
 /* /logo */
 /* navbar */
+#logo-navbar .navbar {
+  text-align: right;
+}
 
+#logo-navbar .navbar a {
+  margin-right: 15px;
+  word-spacing: 8px;
+}
+#logo-navbar .navbar a:hover {
+  color: #2E7A8C;
+}
 /* /navbar */
 /* /logo & navbar */
