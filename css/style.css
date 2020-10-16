@@ -6,7 +6,7 @@
 
 body {
   color: #2c3d51;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* utility */
@@ -24,7 +24,7 @@ li {
   width: 80%;
   height: 100%;
   margin: auto;
-  /* border: 1px solid black; */
+    /* border: 1px solid black; */
 }
 
 .img30 {
@@ -83,7 +83,7 @@ header #fixed-bar {
   position: fixed;
   top: 0;
   z-index: 1;
-  font-size: 17px;
+  font-size: 14px;
   background-color: #FDF1EE;
   border-bottom: 1px solid #425B76;
 }
@@ -182,6 +182,7 @@ header #jumbotron {
 
 .introduction > p.info-top {
   font-size: 18px;
+  line-height: 30px;
   margin: 20px 0;
 }
 
@@ -191,13 +192,16 @@ header #jumbotron {
 
 .introduction > p.info-bottom {
   width: 50%;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
   margin-top: 25px;
 }
 /* /jumbotron */
 
-header::after {
+#jumbotron::after {
   display: block;
+  box-sizing: border-box;
   content: "";
   height: 60px;
   background: #9bede4;
@@ -208,6 +212,7 @@ header::after {
 
 /* MAIN */
 main > #packages {
+  margin-top: 60px;
   background: #F5F8FA;
   padding-bottom: 50px;
 }
