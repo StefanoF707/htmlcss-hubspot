@@ -94,11 +94,9 @@ h4.popolar-feature {
 @keyframes button-brighter {
   0% {
     background: #f0785c;
-    box-shadow: 0 0 11px #cad9e8;
   }
   100% {
     background: #F6BBAC;
-    box-shadow: 0 0 50px #cad9e8;
   }
 }
 
@@ -340,8 +338,6 @@ main > #packages {
 .middle-col,
 .right-col {
   width: 30%;
-  max-height: 750px;
-  overflow: hidden;
   padding: 30px;
   text-align: center;
   border-radius: 10px;
