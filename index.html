@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b954c4656e.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Hubspot</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
       <section id="fixed-bar" class="clearfix">
         <div class="container">
           <div class="fixed-bar-left float50">
-            <ul>
+            <ul class="list-inline">
               <li>
                 <a href="#">
                   <i class="fas fa-globe-europe"></i>
@@ -30,7 +30,7 @@
             </ul>
           </div>
           <div class="fixed-bar-right float50">
-            <ul>
+            <ul class="list-inline">
               <li>
                 <a href="#" class="search-button">
                   <i class="fas fa-search"></i>
@@ -42,7 +42,7 @@
                 </a>
               </li>
               <li>
-                <a href="#" class="hubspot-mini-button">
+                <a href="#" class="btn-top">
                   GetHubspotFree
                 </a>
               </li>
@@ -61,7 +61,7 @@
             </a>
           </div>
           <nav class="navbar float50">
-            <ul>
+            <ul class="list-inline">
               <li>
                 <a href="#">
                   Software
@@ -105,7 +105,7 @@
             <p class="info-top">
               Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”
             </p>
-            <a href="#" class="hubspot-button">
+            <a href="#" class="btn">
               GetHubspotFree
             </a>
             <p class="info-bottom">
@@ -121,6 +121,7 @@
       <!-- packages -->
       <section id="packages" class="clearfix">
         <div class="container">
+          <!-- Integrations -->
           <div class="packages-top">
             <img src="img/integrations.png" alt="Logo integrations" class="img30">
             <h2>Powerful Alone. Better Together</h2>
@@ -128,19 +129,96 @@
               HubSpot offers a full stack of software for marketing, sales, and costumer service, with a completely free CRM at its core. They're powerful alone - but even better when used together.
             </p>
           </div>
-          <div class="packages-middle">
+          <!-- /Integrations -->
+
+          <!-- pacchetto free -->
+          <div class="packages-middle clearfix">
+            <div class="packages-middle-left float-left">
+              <img src="img/crm.svg" alt="Logo crm" class="img50">
+              <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="packages-middle-right float-left">
+              <h3>Free HubSpot CRM</h3>
+              <p>
+                Everything you need to organize, track, and build better relationships with leads and costumers. Yes, it's 100% free. Forever
+              </p>
+              <div class="separator">
+                <h4 class="popolar-feature">Popolar feature</h4>
+                <hr noshade>
+              </div>
+              <ul class="list-inline check-list">
+                <li>
+                  Contact Insight
+                </li>
+                <li>
+                  Deals
+                </li>
+                <li>
+                  Task
+                </li>
+              </ul>
+            </div>
           </div>
+          <!-- /pacchetto free -->
+
           <!-- layout a tre colonne -->
           <div class="packages-bottom">
+            <!-- colonna di sinistra -->
             <aside class="left-col float-left">
-
+              <img src="img/marketing.svg" alt="Logo marketing">
+              <h3 class="title-col">Marketing Hub</h3>
+              <p class="paragraph-col">
+                Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.
+              </p>
+              <h4 class="popolar-feature">Popolar Feature</h4>
+              <ul class="check-list">
+                <li>Lead Generation</li>
+                <li>Marketing Automation</li>
+                <li>Analytics</li>
+              </ul>
+              <a href="#" class="btn">
+                Learn More
+              </a>
             </aside>
+            <!-- /colonna di sinistra -->
+
+            <!-- colonna centrale -->
             <section class="middle-col float-left">
-
+              <img src="img/sales.svg" alt="Logo sales">
+              <h3 class="title-col">Sales Hub</h3>
+              <p class="paragraph-col">
+                Time-saving sales software that helps you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.
+              </p>
+              <h4 class="popolar-feature">Popolar Feature</h4>
+              <ul class="check-list">
+                <li>Email Tracking</li>
+                <li>Meeting Scheduling</li>
+                <li>Email Automation</li>
+              </ul>
+              <a href="#" class="btn">
+                Learn More
+              </a>
             </section>
-            <aside class="right-col float-left">
+            <!-- /colonna centrale -->
 
+            <!-- colonna di destra -->
+            <aside class="right-col float-left">
+              <img src="img/service-hub.svg" alt="Logo sales">
+              <h3 class="title-col">Service Hub</h3>
+              <p class="paragraph-col">
+                Customer service software to help you connect with customers, exceed expectations, and turn them into promoters that grow your business.
+              </p>
+              <h4 class="popolar-feature">Popolar Feature</h4>
+              <ul class="check-list">
+                <li>Tickets</li>
+                <li>Customer Feedback</li>
+                <li>Knowledge Base</li>
+              </ul>
+              <a href="#" class="btn">
+                Learn More
+              </a>
             </aside>
+            <!-- /colonna di destra -->
           </div>
           <!-- /layout a tre colonne -->
         </div>
@@ -151,7 +229,6 @@
       <section id="learn-grow">
         <div class="container">
           <div class="learn-grow-top">
-
           </div>
           <div class="learn-grow-bottom">
             <div class="row-top">
