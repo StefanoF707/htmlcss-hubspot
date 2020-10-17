@@ -23,16 +23,15 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style: none;
+}
 .list-inline li {
   display: inline-block;
 }
 .check-list {
   font-weight: 500;
   text-align: left;
-}
-.list-inline,
-.check-list {
-  list-style: none;
 }
 .check-list li::before {
   content: "";
@@ -362,6 +361,7 @@ main > #packages {
 }
 .packages-bottom p.paragraph-col {
   line-height: 26px;
+  font-size: 15px;
   padding: 20px 0 50px;
   border-bottom: 2px solid #899397;
 }
@@ -473,3 +473,54 @@ main > #customers {
 }
 /* /bottom */
 /* /customers */
+/* /MAIN */
+
+/* FOOTER */
+footer #footer {
+  padding: 70px 0;
+  color: #cbd6e2;
+  background: #2D3E50;
+    height: 600px;
+}
+
+/* footer-top */
+#footer .footer-top {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footer-top .ul-item {
+  width: calc(100% / 4);
+}
+
+.ul-item .list-top {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.ul-item li:not(.list-top) {
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.ul-item li > a:not(#contact-btn):hover {
+  text-decoration: underline;
+}
+.ul-item li > a#contact-btn {
+  display: inline-block;
+  font-size: 13px;
+  color: #32495B;
+  border-radius: 4px;
+  padding: 10px;
+  background: #DADEE0;
+}
+
+/* loghi social */
+.ul-item li > .social-container {
+  width: 70%;
+}
+.social-container .social-item {
+  width: calc(100% / 5);
+}
+/* /loghi social */
+/* /footer-top */
