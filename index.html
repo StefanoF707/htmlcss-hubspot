@@ -11,7 +11,7 @@
 
     <header>
       <!-- fixed-bar -->
-      <section id="fixed-bar" class="clearfix">
+      <div id="fixed-bar" class="clearfix">
         <div class="container">
           <div class="fixed-bar-left float50">
             <ul class="list-inline">
@@ -49,18 +49,18 @@
             </ul>
           </div>
         </div>
-      </section>
+      </div>
       <!-- /fixed-bar -->
 
       <!-- logo & navbar -->
-      <section id="logo-navbar" class="clearfix">
+      <nav id="logo-navbar" class="clearfix">
         <div class="container">
           <div class="logo-container float50">
             <a href="#">
               <img src="img/logo.svg" alt="">
             </a>
           </div>
-          <nav class="navbar float50">
+          <div class="navbar float50">
             <ul class="list-inline">
               <li>
                 <a href="#">
@@ -92,9 +92,9 @@
                 </a>
               </li>
             </ul>
-          </nav>
+          </div>
         </div>
-      </section>
+      </nav>
       <!-- /logo & navbar -->
 
       <!-- jumbotron -->
@@ -297,6 +297,7 @@
       <!-- customers -->
       <section id="customers" class="clearfix">
         <div class="container">
+          <!-- customers-top -->
           <div class="customers-top clearfix">
             <div class="n-customers">
               <h2>
@@ -306,10 +307,8 @@
                 customers in over <strong>100</strong> countries growing their businesses with HubSpot
               </p>
             </div>
-
             <!-- brands -->
             <div class="brands clearfix">
-
               <!-- riga superiore -->
               <div class="brands-row clearfix">
                 <div class="brand-item">
@@ -343,20 +342,32 @@
                 </div>
               </div>
               <!-- /riga inferiore -->
-              
-
             </div>
             <!-- /brands -->
-
           </div>
-          <div class="customers-bottom">
-            <div class="start-growing">
+          <!-- /customers-top -->
 
+          <!-- customers-bottom -->
+          <div class="customers-bottom clearfix">
+            <div class="start-growing">
+              <h2 class="section-title">
+                Start Growing With HubSpot Today
+              </h2>
+              <p class="section-subtitle">
+                With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier.
+              </p>
+              <a href="#" class="btn">
+                GetHubspotFree
+              </a>
+              <p class="info-bottom">
+                Get started with FREE tools, or get more with our premium software.
+              </p>
             </div>
             <div class="customer-picture">
-
+              <img src="img/woman.webp" alt="customer picture" class="img70">
             </div>
           </div>
+          <!-- /customers-bottom -->
         </div>
       </section>
       <!-- /customers -->

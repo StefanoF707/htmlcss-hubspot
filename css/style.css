@@ -10,6 +10,14 @@ body {
 }
 
 /* utility */
+.container {
+  width: 85%;
+  max-width: 1800px;
+  height: 100%;
+  margin: auto;
+    /* border: 1px solid black; */
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -58,16 +66,8 @@ p.info-bottom {
   width: 50%;
   font-size: 12px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 25px;
-}
-
-
-.container {
-  width: 85%;
-  height: 100%;
-  margin: auto;
-    /* border: 1px solid black; */
 }
 
 .img30 {
@@ -79,6 +79,7 @@ p.info-bottom {
 .img70 {
   width: 70%;
 }
+
 
 .float50 {
   width: 50%;
@@ -100,7 +101,7 @@ p.info-bottom {
   text-align: center;
   display: inline-block;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: 600;
   color: #fff;
   background: #f0785c;
   padding: 20px 25px;
@@ -419,7 +420,8 @@ main > #customers {
   padding: 70px 0;
 }
 
-.customers-top {
+/* top */
+#customers .customers-top {
   margin: 0 60px;
 }
 
@@ -450,5 +452,24 @@ main > #customers {
 .brands-row .brand-item img {
   vertical-align: middle;
 }
+/* /top */
 
+
+/* bottom */
+#customers  .customers-bottom {
+  padding: 30px 0;
+}
+
+.customers-bottom .start-growing {
+  width: 40%;
+  float: left;
+  padding-top: 40px;
+}
+
+.customers-bottom .customer-picture {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+/* /bottom */
 /* /customers */
