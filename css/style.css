@@ -37,7 +37,7 @@ a {
 }
 
 h2.section-title {
-  font-size: 32px;
+  font-size: 35px;
 }
 h3 {
   font-size: 25px;
@@ -54,9 +54,17 @@ p.section-subtitle {
   margin: 30px 0;
   font-weight: 500;
 }
+p.info-bottom {
+  width: 50%;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
 
 .container {
-  width: 80%;
+  width: 85%;
   height: 100%;
   margin: auto;
     /* border: 1px solid black; */
@@ -67,6 +75,9 @@ p.section-subtitle {
 }
 .img50 {
   width: 50%;
+}
+.img70 {
+  width: 70%;
 }
 
 .float50 {
@@ -234,14 +245,6 @@ header #jumbotron {
   width: 50%;
 }
 
-.introduction > p.info-bottom {
-  width: 50%;
-  font-size: 12px;
-  line-height: 20px;
-  font-weight: 600;
-  margin-top: 25px;
-}
-
 #jumbotron::after {
   width: 100%;
   height: 80px;
@@ -397,7 +400,7 @@ main > #packages {
   font-size: 45px;
   font-weight: bold;
 }
-.row-item .customer-number::after {
+.row-item .customer-number.plus-after::after {
   content: "+";
   display: inline-block;
   vertical-align: middle;
@@ -409,3 +412,43 @@ main > #packages {
   margin-bottom: 15px;
 }
 /* /learn-and-grow */
+
+
+/* customers */
+main > #customers {
+  padding: 70px 0;
+}
+
+.customers-top {
+  margin: 0 60px;
+}
+
+.customers-top .n-customers {
+  width: 25%;
+  float: left;
+}
+.n-customers > h2 {
+  font-size: 40px;
+  padding-top: 15px;
+}
+
+.customers-top .brands {
+  width: 65%;
+  float: right;
+  text-align: center;
+}
+
+.brands .brands-row {
+  height: 100px;
+  line-height: 100px;
+}
+
+.brands-row .brand-item {
+  width: calc(100% / 4);
+  float: left;
+}
+.brands-row .brand-item img {
+  vertical-align: middle;
+}
+
+/* /customers */
