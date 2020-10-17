@@ -480,7 +480,7 @@ footer #footer {
   padding: 70px 0;
   color: #cbd6e2;
   background: #2D3E50;
-    height: 600px;
+  font-weight: 500;
 }
 
 /* footer-top */
@@ -500,7 +500,6 @@ footer #footer {
 }
 .ul-item li:not(.list-top) {
   font-size: 15px;
-  font-weight: 500;
   padding-bottom: 15px;
 }
 .ul-item li > a:not(#contact-btn):hover {
@@ -524,3 +523,46 @@ footer #footer {
 }
 /* /loghi social */
 /* /footer-top */
+
+/* footer-bottom */
+#footer .footer-bottom {
+  width: 100%;
+}
+
+.footer-bottom .languages {
+  padding: 35px 0 15px;
+  text-align: center;
+  border-bottom: 1px solid #cbd6e2;
+}
+.footer-bottom .languages a {
+  margin-right: 15px;
+}
+
+.credits {
+  padding-top: 20px;
+}
+
+.credits > .credits-left,
+.credits > .credits-right {
+  width: 40%;
+}
+
+.credits > .credits-left > h6 {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 7px;
+}
+
+.credits > .credits-right {
+  float: right;
+  text-align: right;
+}
+.credits-right a {
+  margin-left: 20px;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+/* /footer-bottom */
+/* /FOOTER */
