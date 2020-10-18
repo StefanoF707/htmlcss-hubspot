@@ -11,11 +11,10 @@ body {
 
 /* utility */
 .container {
-  width: 85%;
-  max-width: 1800px;
+  width: 80%;
+  max-width: 1500px;
   height: 100%;
   margin: auto;
-    /* border: 1px solid black; */
 }
 
 a {
@@ -316,10 +315,10 @@ main > #packages {
 }
 .separator hr {
   width: 60%;
+  border-style: solid;
   display: inline-block;
   vertical-align: middle;
   border-color: #899397;
-  border-style: solid;
 }
 
 .packages-middle-right ul li{
@@ -339,21 +338,21 @@ main > #packages {
 .left-col,
 .middle-col,
 .right-col {
-  width: 30%;
+  width: 32%;
   padding: 30px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 0 11px #cad9e8;
   background: #fff;
 }
+.middle-col {
+  margin: 0 2%;
+}
 .left-col > img,
 .middle-col > img,
 .right-col > img {
   width: 110px;
   height: 110px;
-}
-.middle-col {
-  margin: 0 5%;
 }
 
 .packages-bottom h3.title-col {
@@ -403,9 +402,8 @@ main > #packages {
 }
 .row-item .customer-number.plus-after::after {
   content: "+";
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 25px;
+  font-size: 45px;
+  font-weight: 400;
   margin-left: 5px;
 }
 
