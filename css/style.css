@@ -474,7 +474,7 @@ main > #customers {
 /* /MAIN */
 
 /* FOOTER */
-footer #footer {
+footer {
   padding: 70px 0;
   color: #cbd6e2;
   background: #2D3E50;
@@ -482,7 +482,7 @@ footer #footer {
 }
 
 /* footer-top */
-#footer .footer-top {
+footer .footer-top {
   width: 100%;
   padding: 20px 0;
 }
