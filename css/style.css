@@ -90,6 +90,9 @@ p.info-bottom {
 .float-left {
   float: left;
 }
+.float-right {
+  float: right;
+}
 .clearfix::after {
   content: "";
   display: table;
@@ -427,7 +430,6 @@ main > #customers {
 
 .customers-top .n-customers {
   width: 25%;
-  float: left;
 }
 .n-customers > h2 {
   font-size: 40px;
@@ -436,7 +438,6 @@ main > #customers {
 
 .customers-top .brands {
   width: 65%;
-  float: right;
   text-align: center;
 }
 
@@ -462,13 +463,11 @@ main > #customers {
 
 .customers-bottom .start-growing {
   width: 40%;
-  float: left;
   padding-top: 40px;
 }
 
 .customers-bottom .customer-picture {
   width: 50%;
-  float: right;
   text-align: right;
 }
 /* /bottom */
@@ -554,7 +553,6 @@ footer .footer-top {
 }
 
 .credits > .credits-right {
-  float: right;
   text-align: right;
 }
 .credits-right a {
